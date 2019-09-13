@@ -1,0 +1,18 @@
+main {
+    /* border: solid #78C2AD 32px; */
+    min-height: 100vh; 
+}
+#cat-pic {
+    margin-top: 20px; 
+    height: 500px;
+}
+footer {
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    text-align: center; 
+}
+footer h5 {
+    padding: 20px;
+}

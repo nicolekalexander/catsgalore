@@ -1,17 +1,36 @@
+html{
+    background: black;
+}
+body{
+    background: white;
+}
 main {
     /* border: solid #78C2AD 32px; */
-    min-height: 100vh; 
+    min-height: 95vh; 
+    background: url("cat-background.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+     
 }
+
 #cat-pic {
     margin-top: 20px; 
-    height: 500px;
+    height: 350px;
+    margin-bottom: 20px;
+    max-width: 100%;
 }
+
+.next-button {
+    right: 0;
+}
+
 footer {
     position: fixed;
     bottom: 0; 
     left: 0;
     right: 0;
     text-align: center; 
+    min-height: 0 vh;
 }
 footer h5 {
     padding: 20px;
